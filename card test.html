@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card-based Layout Example</title>
+	<style>
+.card {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+
+	</style>
+</head>
+<body>
+<div class="card">
+  <a href="#">
+    <img src="victoriacard.png" alt="Card Image">
+    <div class="card-overlay">
+      <h2>Victoria</h2>
+      <p>Victoria is a bold and vivacious Cyan Dragon Girl who hails from the magical land of Valoria. As the daughter of the revered dragon elder, she has always been a bit of a wild card among her kin. She possesses a natural charm and charisma that draws others to her, but also a fierce independence that has caused her to clash with authority at times.
+<p>
+Growing up, Victoria was fascinated by the ancient legends and lore of her people, and spent countless hours poring over old tomes and artifacts in search of hidden knowledge. Her insatiable curiosity often led her on daring expeditions into dangerous territory, but her quick wit and resourcefulness always saw her through.
+<p>
+Now a young adult, Victoria has earned a reputation as a skilled adventurer and cunning strategist. Though she is fiercely loyal to her dragon brethren, she is always eager to explore new horizons and test her mettle against powerful foes. With her sharp mind and even sharper talons, there is no challenge too great for this intrepid Dragon Girl..</p>
+    </div>
+  </a>
+</div>
+
+</body>
+</html>
