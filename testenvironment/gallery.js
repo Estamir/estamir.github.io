@@ -1,5 +1,5 @@
 function loadPages() {
-  fetch('https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/pages.json')
+  fetch('pages.json')
     .then(response => response.json())
     .then(data => {
       const pages = data.pages.filter(page => page.tags.includes("butt"));
