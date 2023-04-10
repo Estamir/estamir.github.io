@@ -4,36 +4,36 @@
       "title": "A1 Example Page",
       "page": "contentpages/a1.html",
       "tags": ["fantasy", "adventure", "butt"],
-      "thumbnail": "https://i.imgur.com/joixHHs.png"
+      "thumbnail": "images/alexdot.png"
     },
     {
       "title": "A2 Example Page",
       "page": "contentpages/a2.html",
       "tags": ["digital art", "character design", "butt"],
-      "thumbnail": "https://i.imgur.com/dwkHkoF.png"
+      "thumbnail": "images/teedus.png"
     },
     {
       "title": "A3 Example Page",
       "page": "contentpages/a3.html",
       "tags": ["science fiction", "short story", "butt"],
-      "thumbnail": "https://i.imgur.com/4DTVJeY.png"
+      "thumbnail": "images/dingdong2.png"
     },
     {
       "title": "B1 Example Page",
       "page": "contentpages/b1.html",
-      "tags": ["fantasy", "adventure", "butt"],
-      "thumbnail": "https://i.imgur.com/XjHfrIb.png"
+      "tags": ["fantasy", "adventure"],
+      "thumbnail": "images/dingdong1.png"
     },
     {
       "title": "B2 Example Page",
       "page": "contentpages/b2.html",
-      "tags": ["digital art", "character design"],
+      "tags": ["digital art", "character design", "butt"],
       "thumbnail": "images/wave.png"
     },
     {
       "title": "B3 Example Page",
       "page": "contentpages/b3.html",
-      "tags": ["science fiction", "short story"],
+      "tags": ["science fiction", "short story", "butt"],
       "thumbnail": "images/why.png"
     }
   ]
